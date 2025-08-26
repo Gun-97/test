@@ -36,5 +36,54 @@ Follow these steps to build the project from source:
    ```bash
    git clone https://github.com/your-username/asset-central.git
    cd asset-central
-   
+   ```
 
+2. Create a build directory and run CMake:
+   ```bash
+   mkdir build
+   cd build
+   cmake ..
+   ```
+
+3. Build the project:
+   - **On Windows (using Visual Studio)**: Open the generated `.sln` file and build from there.  
+   - **On Linux or macOS (using Make)**:  
+     ```bash
+     make
+     ```
+
+4. The executable will be generated in the `build/` directory.
+
+---
+
+## 🖥 Usage
+After building, you can run the application from the build directory.
+
+```bash
+# On Linux/macOS
+./StockManagementSystem
+
+# On Windows
+StockManagementSystem.exe
+```
+
+The application will launch a command-line interface, prompting you to log in or register.
+
+---
+
+## 📁 File Structure
+```
+asset-central/
+│── src/        # Contains all the C++ source files (.cpp)
+│── include/    # Contains all the C++ header files (.hpp)
+│── data/       # Stores Excel data files (users.xlsx, stocks.xlsx, etc.) at runtime
+│── CMakeLists.txt  # Build script for CMake
+```
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! 🎉  
+If you have suggestions or find a bug, please open an issue or submit a pull request.
+
+---
