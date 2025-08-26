@@ -34,8 +34,8 @@ Follow these steps to build the project from source:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/asset-central.git
-   cd asset-central
+   git clone https://github.com/Pre-University-Gen4/stock-cpp-console-app.git
+   cd stock-cpp-console-app
    ```
 
 2. Create a build directory and run CMake:
@@ -73,10 +73,11 @@ The application will launch a command-line interface, prompting you to log in or
 
 ## 📁 File Structure
 ```
-asset-central/
+stock-cpp-console-app/
 │── src/        # Contains all the C++ source files (.cpp)
 │── include/    # Contains all the C++ header files (.hpp)
 │── data/       # Stores Excel data files (users.xlsx, stocks.xlsx, etc.) at runtime
+│── backup/     # Stores backup copies of data files
 │── CMakeLists.txt  # Build script for CMake
 ```
 
@@ -85,5 +86,3 @@ asset-central/
 ## 🤝 Contributing
 Contributions are welcome! 🎉  
 If you have suggestions or find a bug, please open an issue or submit a pull request.
-
----
